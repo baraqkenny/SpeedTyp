@@ -7,7 +7,7 @@
 
 .container{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: linear-gradient(#832388,#E3436B);
     color: #fff;
 }
@@ -94,6 +94,13 @@ span{
         margin-top: 2rem;
         background: rgba(0, 0, 0, 0.4);
         padding: 1rem 4rem;
+    }
+
+    .container {
+        width: 100%;
+        height: 115vh;
+        background: linear-gradient(#832388, #E3436B);
+        color: #fff;
     }
 }
 
