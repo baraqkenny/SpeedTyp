@@ -60,7 +60,7 @@ span{
 
 .minute{
 
-    margin-top: 2rem;
+    margin-top: 4rem;
     background: rgba(0,0,0,0.4);
     padding: 3rem 4rem;
 }
@@ -91,7 +91,7 @@ span{
 
     .minute {
     
-        margin-top: 2rem;
+        margin-top: 3rem;
         background: rgba(0, 0, 0, 0.4);
         padding: 1rem 4rem;
     }
@@ -102,6 +102,16 @@ span{
         background: linear-gradient(#832388, #E3436B);
         color: #fff;
     }
+
+
+  .content {
+    margin-top: 3rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 }
 
 @media(max-width: 380px) {
