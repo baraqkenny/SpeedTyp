@@ -26,7 +26,7 @@ const words = [
     'nutrition',
     'javascript',
     'laughter',
-   ' industry',
+   'industry',
     'information',
     'inside',
     'instead',

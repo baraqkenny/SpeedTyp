@@ -21,21 +21,6 @@
     
  }
 
-
-nav ul li {
-    display: inline-block;
-    margin-right: 7rem;
-    margin-top: 2rem;
-    cursor: pointer;
-    text-transform: capitalize;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-weight: bold;
-    background: #fff;
-    color: #000;
-}
-
 .content {
    margin-top: 3rem;
    position: absolute;
@@ -52,6 +37,7 @@ nav ul li {
 
 .content > p {
   font-size: 20px;
+  margin-top: 20px;
 }
 span{
     color: red;
@@ -61,13 +47,11 @@ span{
     margin-top: 2rem;
     height: 2.7rem;
     width: 27rem;
-    padding-left: 20px;
+    padding-left: 30px;
     font-size: 17px;
 }
 
-::placeholder{
-    padding-left: 10px;
-}
+
 
 #message{
     margin-top:1rem;
@@ -95,6 +79,52 @@ span{
 }
 
 
+@media(max-width: 470px) {
 
+    #word-input {
+        margin-top: 2rem;
+        height: 2.7rem;
+        width: 23rem;
+        padding-left: 30px;
+        font-size: 17px;
+    }
+
+    .minute {
+    
+        margin-top: 2rem;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 1rem 4rem;
+    }
+}
+
+@media(max-width: 380px) {
+    .content .current-word {
+        font-size: 50px;
+        text-align: center;
+    }
+
+        #word-input {
+            margin-top: 2rem;
+            height: 2.7rem;
+            width: 20rem;
+            padding-left: 30px;
+            font-size: 17px;
+        }
+}
+
+@media(max-width: 340px) {
+    .content .current-word {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #word-input {
+        margin-top: 2rem;
+        height: 2.7rem;
+        width: 19rem;
+        padding-left: 30px;
+        font-size: 17px;
+    }
+}
 
 
